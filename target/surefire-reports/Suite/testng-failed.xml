@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="ashok.selenium.practice.SeleniumFrameworkDesign.TestComponenets.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="ashok.selenium.practice.SeleniumFrameworkDesign.tests.ErrorValidation">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="loginErrorValidation"/>
+        </methods>
+      </class> <!-- ashok.selenium.practice.SeleniumFrameworkDesign.tests.ErrorValidation -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
