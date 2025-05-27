@@ -40,6 +40,7 @@ public class StandAloneTest2  extends BaseTest{
 	public void submitOrder(HashMap<String, String> input) throws IOException {
 		System.out.println("Ashok class : "+ this.getClass().getSimpleName() + " Method Name : " + new Object(){}.getClass().getEnclosingMethod().getName());
 		// TODO Auto-generated method stub
+		//New comments are added
 		WebDriverManager.chromedriver().setup();
 
 //		WebDriver driver = new ChromeDriver();
